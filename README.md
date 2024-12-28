@@ -5,6 +5,9 @@ This repository provides a Dockerfile for creating a Docker image based on **php
 You can pull the pre-built image from Docker Hub at:  
 [**softjpn/laravel-nodejs-dev**](https://hub.docker.com/r/softjpn/laravel-nodejs-dev)
 
+GitHub Repository:  
+[**softjapan/laravel-nodejs-dev**](https://github.com/softjapan/laravel-nodejs-dev)
+
 ---
 
 ## What's Included
@@ -107,8 +110,8 @@ Displays the npm version inside the container. You can also install dependencies
 If you prefer to build the image yourself, clone this repository and run:
 
 ```bash
-git clone https://github.com/<your-github-account>/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/softjapan/laravel-nodejs-dev.git
+cd laravel-nodejs-dev
 docker build -t softjpn/laravel-nodejs-dev .
 ```
 
@@ -126,7 +129,7 @@ Then you can use your locally built image by specifying `softjpn/laravel-nodejs-
 
 ## Contributing
 
-1. Fork the repository.  
+1. Fork the repository ([**softjapan/laravel-nodejs-dev**](https://github.com/softjapan/laravel-nodejs-dev)).  
 2. Create a new feature branch.  
 3. Make your changes and commit them.  
 4. Push to the branch.  
@@ -140,4 +143,4 @@ All contributions are welcome!
 
 This project is open-sourced software licensed under the [MIT license](LICENSE).  
 
-Feel free to open issues or submit pull requests for improvements or suggestions!  
+Feel free to open issues or submit pull requests for improvements or suggestions!
